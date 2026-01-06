@@ -38,7 +38,7 @@ body{
 }
 .titleContent{
     display: grid;
-    place-items: center;
+    justify-content: center
 
 }
 p{
