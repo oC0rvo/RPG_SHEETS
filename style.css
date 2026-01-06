@@ -1,0 +1,103 @@
+@font-face {
+    font-family: "Ordem_Paranormal";
+    src: url("./src/fonts/SpecialElite-Regular.ttf");
+}
+@font-face {
+    font-family: 'Hexatombe_Font';
+    src: url(./src/fonts/MyscaryfontByLeandrink-Regular.ttf);
+}
+@font-face {
+    font-family: sigilos;
+    src: url(/src/fonts/Sigilos-Regular.ttf);
+}
+
+body,body{
+    min-height: 100vh;
+    position: relative;
+    background-color: black;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+body{
+    position: relative;
+    isolation: isolate;
+}
+.bg-texture{
+    position: fixed;
+    inset: 0;
+    background-image: url('/src/imgs/parede.png');
+    background-position: center;
+    opacity: 1;
+    z-index: -3;
+    pointer-events: none;
+}
+.mainContent{
+    position: relative;
+    z-index: 1;
+
+}
+.titleContent{
+    display: grid;
+    place-items: center;
+
+}
+p{
+    font-family: "Hexatombe_font";
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: center;
+    color: #6E0B0B;
+    background-color: #000000;
+    text-shadow:
+    -5px -5px 5px #000000,
+    -3px -3px  5px #460202,
+    3px 3px 2px #000000,
+    6px 6px 2px #2c0101;
+    letter-spacing: 0.08rem;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+.titleContent #subTitulo{
+    font-size: 3.5em;
+    font-family: "Hexatombe_Font";
+    color: #741212;
+    text-shadow: 
+    -3px -3px 3px #000000,
+    -5px -5px 2px #3a0000,
+    3px 3px 1px #000000,
+    6px 6px 2px #3a0000;
+}
+#sangue{
+
+    display: flex;
+    justify-items: center;
+    justify-self: center;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+}
+.date{
+    margin-top: 30px;
+    font-family: "Ordem_Paranormal";
+    display: flex;
+    justify-content: center;
+    color: #6E0B0B;
+    font-size: 5.5rem;
+    text-shadow:
+    -6px -6px 3px #000000,
+    -3px -3px 10px #960000,
+    6px 6px 3px #000000,
+    5px 5px 10px #2b0202;
+
+    margin-bottom: 30px;
+
+    
+}
+#smoke{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none; 
+}
