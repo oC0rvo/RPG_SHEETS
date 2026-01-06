@@ -43,9 +43,7 @@ body{
 }
 p{
     font-family: "Hexatombe_font";
-    display: flex;
     font-size: clamp(1rem, 2.5vw, 1.5rem);
-    justify-content: center;
     color: #6E0B0B;
     text-shadow:
     -5px -5px 5px #000000,
@@ -55,7 +53,8 @@ p{
     letter-spacing: 0.08rem;
 }
 .titleContent #subTitulo{
-    font-size: clamp(2rem,6vw,3.5rem);
+    justify-self: center;
+    font-size: clamp(1.5rem,6vw,3.5rem);
     font-family: "Hexatombe_Font";
     color: #741212;
     text-shadow: 
@@ -84,10 +83,10 @@ p{
     color: #6E0B0B;
     font-size: clamp(2rem,6vw,5.5rem);
     text-shadow:
-    -6px -6px 3px #000000,
-    -3px -3px 10px #960000,
-    6px 6px 3px #000000,
-    5px 5px 10px #2b0202;
+    4px 4px 3px #000000,
+    3px 3px 5px #960000,
+    4px 4px 3px #000000,
+    3px 3px 5px #2b0202;
 
     margin-bottom: 30px;
 
@@ -100,4 +99,10 @@ p{
     inset: 0;
     z-index: 0;
     pointer-events: none; 
+}
+.bibleText{
+    display: block;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
 }
