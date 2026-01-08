@@ -1,20 +1,20 @@
 @font-face {
     font-family: "Ordem_Paranormal";
-    src: url("./src/fonts/SpecialElite-Regular.ttf");
+    src: url("/src/fonts/SpecialElite-Regular.ttf");
 }
 @font-face {
     font-family: 'Hexatombe_Font';
-    src: url(./src/fonts/MyscaryfontByLeandrink-Regular.ttf);
+    src: url("/src/fonts/MyscaryfontByLeandrink-Regular.ttf");
 }
 @font-face {
     font-family: sigilos;
-    src: url(/src/fonts/Sigilos-Regular.ttf);
+    src: url("/src/fonts/Sigilos-Regular.ttf");
 }
 
 body,body{
     min-height: 100vh;
     position: relative;
-    background-color: black;
+    background-color: rgb(20, 1, 1);
     overflow-x: hidden;
 
 }
@@ -22,15 +22,7 @@ body{
     position: relative;
     isolation: isolate;
 }
-.bg-texture{
-    position: fixed;
-    inset: 0;
-    background-image: url('/src/imgs/parede.png');
-    background-position: center;
-    opacity: 1;
-    z-index: -3;
-    pointer-events: none;
-}
+
 .mainContent{
     position: relative;
     z-index: 1;
@@ -41,24 +33,14 @@ body{
     justify-content: center
 
 }
-p{
-    font-family: "Hexatombe_font";
-    font-size: clamp(1rem, 2.5vw, 1.5rem);
-    color: #6E0B0B;
-    text-shadow:
-    -5px -5px 5px #000000,
-    -3px -3px  5px #460202,
-    3px 3px 2px #000000,
-    6px 6px 2px #2c0101;
-    letter-spacing: 0.08rem;
-}
+
 .titleContent #subTitulo{
     justify-self: center;
     font-size: clamp(1.5rem,6vw,3.5rem);
     font-family: "Hexatombe_Font";
-    color: #741212;
+    color: #ff0000;
     text-shadow: 
-    -3px -3px 3px #000000,
+    -3px -3px 1px #000000,
     -5px -5px 2px #3a0000,
     3px 3px 1px #000000,
     6px 6px 2px #3a0000;
@@ -76,21 +58,16 @@ p{
 
 }
 .date{
-    margin-top: 30px;
     font-family: "Ordem_Paranormal";
     display: flex;
     justify-content: center;
-    color: #6E0B0B;
+    color: #ff0000;
     font-size: clamp(2rem,6vw,5.5rem);
     text-shadow:
-    4px 4px 3px #000000,
-    3px 3px 5px #960000,
-    4px 4px 3px #000000,
-    3px 3px 5px #2b0202;
-
-    margin-bottom: 30px;
-
-    
+    -4px -4px 12px #000000,
+    3px 3px 12px #ca0000,
+    -4px -4px 12px #770404,
+    3px 3px 12px #a70000;    
 }
 #smoke{
     height: 100%;
@@ -101,8 +78,35 @@ p{
     pointer-events: none; 
 }
 .bibleText{
+    font-size: clamp(1.5rem,6vw,2.5rem);
+    font-family: "Hexatombe_font";
+    color: #ff0000;
     display: block;
     justify-content: center;
     justify-self: center;
     align-items: center;
+    text-align: center;
+      text-shadow:
+    -4px -4px 12px #000000,
+    3px 3px 12px #ca0000,
+    -4px -4px 12px #770404,
+    3px 3px 12px #a70000; 
+}
+.quibungo{
+    z-index: 1;
+    display: block;
+    justify-self: center;
+    align-items: center;
+    text-align: center;
+}
+.quibungo .cantiga{
+    z-index: 1;
+    font-size: clamp(1.5rem,6vw,2.5rem);
+    font-family: "Hexatombe_font";
+    color: #ff0000;
+      text-shadow:
+    -4px -4px 12px #000000,
+    3px 3px 12px #ca0000,
+    -4px -4px 12px #770404,
+    3px 3px 12px #a70000; 
 }

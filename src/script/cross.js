@@ -42,10 +42,10 @@ SOMBRA (ESTÉTICA)
 =====================================================
 */
 
-ctx.shadowColor = "#000000ff";
-ctx.shadowBlur = 3;
-ctx.shadowOffsetX = 4;
-ctx.shadowOffsetY = 4;
+ctx.shadowColor = "#811616ff";
+ctx.shadowBlur = 15;
+ctx.shadowOffsetX = -5;
+ctx.shadowOffsetY = -5;
 
 /*
 =====================================================
@@ -54,7 +54,7 @@ DESENHO DO SÍMBOLO
 */
 
     
-ctx.fillStyle = "#6E0B0B";
+ctx.fillStyle = "#ff0000ff";
 ctx.beginPath();
 
 // ---------- PONTA SUPERIOR ----------
