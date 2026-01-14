@@ -12,6 +12,7 @@
 }
 
 body,body{
+    font-family: "Hexatombe_font";
     min-height: 100vh;
     position: relative;
     background-color: rgb(0, 0, 0);
@@ -21,7 +22,7 @@ body,body{
 body{
     position: relative;
     isolation: isolate;
-    background-image: url(/parede.png);
+    background-image: url(parede.png);
 }
 
 .mainContent{
@@ -57,6 +58,9 @@ body{
     max-height: 500px;
     max-width: 500px;
 
+}
+.h1{
+    font-family: "Ordem_Paranormal";
 }
 .date{
     font-family: "Ordem_Paranormal";
